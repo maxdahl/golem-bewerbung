@@ -1,0 +1,19 @@
+.tag {
+  background: silver;
+  border-radius: 5px;
+}
+
+#searchbar {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;
+}
+}
+
+#articles-container th {
+  font-weight: bold;
+}
+
+#articles-container tr:nth-child(2n) {
+  background: lightgrey;
+}

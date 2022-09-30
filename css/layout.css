@@ -1,0 +1,35 @@
+main {
+  width: 80%;
+  margin: 1em auto;
+}
+
+#tag-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.tag {
+  padding: 10px;
+}
+
+#search-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+}
+
+#search-input-container {
+  grid-column-start: 2;
+}
+
+#searchbar {
+  width: 100%;
+}
+
+#articles-container table {
+  width: 100%;
+}
+
+#articles-container th {
+  text-align: left;
+}
