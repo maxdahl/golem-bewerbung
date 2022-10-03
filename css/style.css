@@ -26,6 +26,14 @@
   font-weight: bold;
 }
 
+#articles-container th:hover {
+  cursor: pointer;
+}
+
 #articles-container tr:nth-child(2n) {
   background: lightgrey;
+}
+
+#reload-btn-container:hover {
+  cursor: pointer;
 }

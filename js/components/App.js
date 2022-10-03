@@ -79,7 +79,10 @@ class App extends BaseComponent {
     const { isLoading, articles, keywords, searchQuery } = this.state;
 
     if (isLoading) {
+      document.getElementById("loader-container").style.display = "flex";
       return;
+    } else {
+      document.getElementById("loader-container").style.display = "none";
     }
 
     const selectedKeywords = Object.keys(keywords).filter(
