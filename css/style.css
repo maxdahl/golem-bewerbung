@@ -1,6 +1,18 @@
-.tag {
+.keyword {
   background: silver;
   border-radius: 5px;
+}
+
+.keyword.selected {
+  background: orange;
+}
+
+.keyword:hover {
+  cursor: pointer;
+}
+
+.keyword img {
+  max-width: 15px;
 }
 
 #searchbar {
@@ -8,7 +20,7 @@
   border-radius: 5px;
   padding: 10px;
 }
-}
+
 
 #articles-container th {
   font-weight: bold;

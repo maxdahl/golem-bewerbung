@@ -3,13 +3,13 @@ main {
   margin: 1em auto;
 }
 
-#tag-list-container {
+#keywords-container {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
 }
 
-.tag {
+.keyword {
   padding: 10px;
 }
 
@@ -26,10 +26,19 @@ main {
   width: 100%;
 }
 
-#articles-container table {
-  width: 100%;
+#articles-container {
+  display: grid;
+  grid-template-columns: 95% 5%;
 }
 
+#articles-table table {
+  width: 100%
+}
+ 
 #articles-container th {
   text-align: left;
+}
+
+#reload-btn-container {
+  text-align: center;
 }
